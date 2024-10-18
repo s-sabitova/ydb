@@ -18,6 +18,8 @@ The `tools dump` command dumps the database data and objects schema to the clien
 
 `--scheme-only`: Dump only the details about the database schema objects, without dumping their data
 
+`--preserve-pool-kinds`: Preserve storage pool kind settings. If this option is enabled, storage pool kind will be saved to dump. In this case, if there will be no such storage pool kind in database on restore, error will occur. By default this option is disabled and any existing storage pool kind will be used on restore.
+
 `--consistency-level VAL`: The consistency level. Possible options:
 
 - `database`: A fully consistent dump, with one snapshot taken before starting dumping. Applied by default.
