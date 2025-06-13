@@ -1,0 +1,7 @@
+- labels:
+    container: ydb-static
+  targets:
+  # Put your storage nodes FQDN and http-mon port (default is :8765) below
+  - "ydb-s1.net:8765"
+  - "ydb-s2.net:8765"
+  - "ydb-s3.net:8765"
