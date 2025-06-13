@@ -1,0 +1,16 @@
+- labels:
+    container: ydb-dynamic
+  targets:
+  # Put your dynamic nodes FQDN and http-mon port below
+  - "ydb-s1.net:31002"
+  - "ydb-s2.net:31002"
+  - "ydb-s3.net:31002"
+  - "ydb-s1.net:31012"
+  - "ydb-s2.net:31012"
+  - "ydb-s3.net:31012"
+  - "ydb-s1.net:31022"
+  - "ydb-s2.net:31022"
+  - "ydb-s3.net:31022"
+  - "ydb-s1.net:31032"
+  - "ydb-s2.net:31032"
+  - "ydb-s3.net:31032"
