@@ -164,6 +164,6 @@
 | Read idle time max | Максимальное время простоя (сколько времени консьюмер не читал из партиции) по всем партициям топика |
 | Uncommitted messages max | Максимальная (по всем партициям) разница между последним оффсетом партиции и закомиченным оффсетом партиции топика |
 | Committed read lag max | 	Максимальная (по всем партициям) разница между текущим временем и временем записи последнего закомиченного сообщения в топик |
-| Partition sessions started | Количество сессий чтения топика консьюмером, запущенных в единицу времени |
+| Partition sessions started | Количество сессий чтения топика консьюмером, запущенных в секунду |
 
 Скачать шаблон дашборда **Topic — Consumer**: [topic-consumer.json](https://raw.githubusercontent.com/ydb-platform/ydb/refs/heads/main/ydb/deploy/helm/ydb-prometheus/dashboards/topic-consumer.json).
