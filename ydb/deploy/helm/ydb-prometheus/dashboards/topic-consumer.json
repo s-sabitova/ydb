@@ -285,7 +285,7 @@
         "type": "prometheus",
         "uid": "${ds}"
       },
-      "description": "`Number of messages per second written using Ydb::TopicService::StreamWrite`",
+      "description": "Number of messages per second written using `Ydb::TopicService::StreamWrite`",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -987,7 +987,7 @@
         "type": "prometheus",
         "uid": "${ds}"
       },
-      "description": "\tMaximum idle time (how long the topic partition was not read by the consumer) for all partitions",
+      "description": "Maximum idle time (how long the topic partition was not read by the consumer) for all partitions",
       "fieldConfig": {
         "defaults": {
           "color": {
